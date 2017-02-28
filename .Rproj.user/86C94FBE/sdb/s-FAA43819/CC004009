@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\n# Original question:\n# How to make a function accepting 'C:\\Marketing' as an argument and returning 'C:/Marketing'.\n\n# Addins solution:\n'C:/Marketing'\n",
+    "created" : 1487348743786.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1499709058",
+    "id" : "CC004009",
+    "lastKnownWriteTime" : 1487468334,
+    "last_content_update" : 1487468334116,
+    "path" : "~/Desktop/temp.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

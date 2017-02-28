@@ -1,0 +1,9 @@
+Name: Insert pipe
+Description: Inserts pipe at the cursor position.
+Binding: insert_pipe
+Interactive: false
+
+Name: Parse path
+Description: Parses selected "Windows" path into "R-usable" one.
+Binding: path_parse
+Interactive: false
