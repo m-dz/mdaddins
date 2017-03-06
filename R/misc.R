@@ -7,11 +7,17 @@
 #' @importFrom magrittr '%>%'
 #'
 #' @examples
+#' # Not run: test on the following texts:
+#' C:\Users\me
+#' 'C:\Users\me'
+#' "C:\Users\me"
+#' C:\\Users\\me
+#' C:/Users/me
 path_parse <- function() {
   getActiveDocumentContext()[['selection']][[1]][['text']] %>%
-  { chartr('\\', '/', .) } %>%
-  # { gsub('\\\\','/',.) } %>%
-  { insertText(paste0('\'', ., '\'')) }
+  { gsub('\\\\', '/', .) } %>%
+  { gsub('//', '/', .) } %>%
+  { ifelse(check_for_quotes(.), insertText(.), insertText(paste0('\'', ., '\''))) }
 }
 
 #' Insert \%>\%.
