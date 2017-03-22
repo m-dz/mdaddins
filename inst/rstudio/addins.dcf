@@ -1,3 +1,8 @@
+Name: Insert arrow
+Description: Inserts assignment arrow at the cursor position.
+Binding: insert_arrow
+Interactive: false
+
 Name: Insert pipe
 Description: Inserts pipe at the cursor position.
 Binding: insert_pipe

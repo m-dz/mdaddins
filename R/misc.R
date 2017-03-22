@@ -20,7 +20,7 @@ path_parse <- function() {
   { ifelse(check_for_quotes(.), insertText(.), insertText(paste0('\'', ., '\''))) }
 }
 
-#' Insert \%>\%.
+#' Insert \%>\% ("pipe").
 #'
 #' Call this function as an addin to insert \code{ \%>\% } at the cursor position.
 #'
@@ -31,4 +31,14 @@ path_parse <- function() {
 #'
 insert_pipe <- function() {
   insertText(" %>% ")
+}
+
+#' Insert assignment arrow ("<-")
+#'
+#' @export
+#' @importFrom rstudioapi insertText
+#'
+#' @examples
+insert_arrow <- function() {
+  insertText(" <- ")
 }
