@@ -2,7 +2,7 @@
 % Please edit documentation in R/misc.R
 \name{insert_pipe}
 \alias{insert_pipe}
-\title{Insert \%>\%.}
+\title{Insert \%>\% ("pipe").}
 \usage{
 insert_pipe()
 }

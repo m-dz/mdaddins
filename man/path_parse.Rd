@@ -9,3 +9,11 @@ path_parse()
 \description{
 Parse selected "Windows" path to an "R-usable" one
 }
+\examples{
+# Not run: test on the following texts:
+C:\\Users\\me
+'C:\\Users\\me'
+"C:\\Users\\me"
+C:\\\\Users\\\\me
+C:/Users/me
+}
